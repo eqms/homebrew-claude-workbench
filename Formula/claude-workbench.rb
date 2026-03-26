@@ -12,21 +12,21 @@ class ClaudeWorkbench < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/eqms/claude-workbench/releases/download/v0.71.0/claude-workbench-aarch64-apple-darwin.tar.gz"
-      sha256 "ffebcc872bbf4d23e9b58f093bc10902ef4ac2725e588988407f3bf1a246109f"
+      url "https://github.com/eqms/claude-workbench/releases/download/v0.72.0/claude-workbench-aarch64-apple-darwin.tar.gz"
+      sha256 "bce8612743634a991ee3c90db46db9edaecb3e050b0a167714c1153921197693"
     else
-      url "https://github.com/eqms/claude-workbench/releases/download/v0.71.0/claude-workbench-x86_64-apple-darwin.tar.gz"
-      sha256 "70384e532f2c1304d23ef6546661a35e12a28d65be7b587fb1f8d3412c526774"
+      url "https://github.com/eqms/claude-workbench/releases/download/v0.72.0/claude-workbench-x86_64-apple-darwin.tar.gz"
+      sha256 "ce7d7eac6d3adbd57730553b78b72bc1126bbc2af9caebaa9eeb15f892f096e9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/eqms/claude-workbench/releases/download/v0.71.0/claude-workbench-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8d0f1edc315f47dfc6562f7a99b154d4aa6611320508ff2b65ee9fb73f576e68"
+      url "https://github.com/eqms/claude-workbench/releases/download/v0.72.0/claude-workbench-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e00f58eb8d4cf5836b15fd2da145b3ed21e369aa38024092ba10cc53d9919a10"
     else
-      url "https://github.com/eqms/claude-workbench/releases/download/v0.71.0/claude-workbench-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7291a05b306c2dd08e82a75b85f01c27609236848c9180927fc10beea21135c4"
+      url "https://github.com/eqms/claude-workbench/releases/download/v0.72.0/claude-workbench-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f0d30103f21f147f7abf145f2b0f914cf24a16eeb18ac484ae598871b83bc5af"
     end
   end
 
